@@ -1,0 +1,208 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require font-awesome
+ *= require_tree .
+ *= require_self
+ */
+
+a, a:visited {
+  text-decoration: none;
+  color: #CCC;
+}
+
+a:hover {
+  color: red;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.left a {
+  padding-left: 0px !important;
+  padding-right: 20px !important;
+}
+
+.center {
+  text-align: center;
+}
+
+div.alert {
+  background: red;
+  color: black;
+  font-size: 1.4em;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+  line-height: 2em;
+  display: none;
+}
+
+div.header, div.subheader {
+  line-height: 3em;
+  color: #CCC;
+  font-size: 1.6em;
+  border-bottom: 1px solid rgb(204,204,204);
+}
+
+div.header a {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+div.header a:hover {
+  text-decoration: underline;
+}
+
+.icons a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+form.search-form input[type=text] {
+  line-height: 23px;
+  margin-right: 4px;
+}
+
+form.search-form input[type=submit] {
+  color: white;
+  background: red;
+  border: 1px solid white;
+  outline: 3px solid red;
+}
+
+.cart-summary a {
+  font-size: 1.6em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: red;
+}
+
+.cartoon {
+  min-height: 300px;
+  background: black;
+  display: none;
+}
+
+.category-navigation {
+  background: red;
+  color: white;
+  font-size: 1.4em;
+  padding: 10px;
+  display: none;
+}
+
+.category-navigation .col {
+  line-height: 2em;
+  text-align: center;
+}
+
+.category-navigation .col a {
+  color: white;
+}
+
+.category-navigation .col a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+div.products {
+  background: black;
+  min-height: 800px;
+  margin-top: 20px;
+}
+
+div.filter {
+  border: 1px solid rgb(204,204,204);
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+div.filter ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
+
+div.filter ul li:first-child {
+  background: rgb(226,226,226);
+  font-weight: bold;
+  border-bottom: 1px solid #CCC;
+}
+
+div.filter ul li:last-child {
+  padding-bottom: 20px;
+}
+
+div.filter ul li {
+  padding: 10px;
+  font-size: 1.4em;
+}
+
+div.filter ul li.sub-title a {
+  text-transform: uppercase;
+  color: black;
+}
+
+div.filter ul li.sub-title a:visited {
+  color: black;
+}
+
+div.filter ul li a {
+  color: blue;
+}
+
+div.filter ul li a:hover {
+  text-decoration: underline;
+}
+
+div.price-filter form {
+  font-size: 1.4em;
+  padding: 8px 10px 10px 10px;
+}
+
+div.price-filter input[type=text] {
+  margin: 0px;
+  padding: 3px 15px 3px 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(188, 183, 179);
+  width: 62px;
+  line-height: 1em;
+  font-size: 1.4em;
+}
+
+div.price-filter input[type=submit] {
+  height: 34px;
+  vertical-align: bottom;
+  margin: 0px 8px 0px 7px;
+  padding: 8px 15px 7px 15px;
+  width: 36px;
+  border-radius: 3px;
+  border: 1px solid rgb(216, 213, 210);
+  color: #7d7773;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.80);
+  border-color: #dddad6 #D8D5D2 #cdc9c6;
+  background: #f2f3f3;
+  background: -webkit-linear-gradient(top,#fff 0,#fdfdfc 4%,#f3f3f2 11%,#f3f3f2 95%,#e9e9e8 100%);
+  background: -moz-linear-gradient(top,#fff 0,#fdfdfc 4%,#f3f3f2 11%,#f3f3f2 95%,#e9e9e8 100%);
+  background: -ms-linear-gradient(top,#fff 0,#fdfdfc 4%,#f3f3f2 11%,#f3f3f2 95%,#e9e9e8 100%);
+  background: -o-linear-gradient(top,#fff 0,#fdfdfc 4%,#f3f3f2 11%,#f3f3f2 95%,#e9e9e8 100%);
+  background: linear-gradient(top,#fff 0,#fdfdfc 4%,#f3f3f2 11%,#f3f3f2 95%,#e9e9e8 100%);
+}
+}

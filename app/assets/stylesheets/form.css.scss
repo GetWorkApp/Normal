@@ -1,0 +1,146 @@
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+
+.form {
+  margin: 0 0 15px;
+}
+
+.form-done {
+  display: none;
+  padding: 10px;
+  background-color: #dddddd;
+}
+
+.form-fail {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #ffdede;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input,
+.select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555555;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.input:-moz-placeholder,
+.select:-moz-placeholder {
+  color: #999999;
+}
+
+.input::-moz-placeholder,
+.select::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.input:-ms-input-placeholder,
+.select:-ms-input-placeholder {
+  color: #999999;
+}
+
+.input::-webkit-input-placeholder,
+.select::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.input:focus,
+.select:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+}
+
+.input[disabled],
+.select[disabled],
+.input[readonly],
+.select[readonly],
+fieldset[disabled] .input,
+fieldset[disabled] .select {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+
+textarea.input,
+textarea.select {
+  height: auto;
+}
+
+.select[multiple] {
+  height: auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: 0;
+  line-height: inherit;
+}
+
+.form-label {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+.checkbox,
+.radio {
+  display: block;
+  margin-bottom: 5px;
+  padding-left: 20px;
+}
+
+.checkbox:before,
+.radio:before,
+.checkbox:after,
+.radio:after {
+  content: " ";
+  display: table;
+}
+
+.checkbox:after,
+.radio:after {
+  clear: both;
+}
+
+.checkbox-input,
+.radio-input {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal;
+  float: left;
+  margin-left: -20px;
+}
+
+.radio-input {
+  margin-top: 3px;
+}

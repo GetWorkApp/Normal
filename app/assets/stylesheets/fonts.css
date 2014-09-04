@@ -1,0 +1,21 @@
+@font-face {
+        font-family: "Roboto";
+        src: url(/assets/Roboto-Black.ttf) format("truetype");
+        src: url(/assets/Roboto-BlackItalic.ttf) format("truetype");
+        src: url(/assets/Roboto-Bold.ttf) format("truetype");
+        src: url(/assets/Roboto-BoldItalic.ttf) format("truetype");
+        src: url(/assets/Roboto-Italic.tff) format("truetype");
+        src: url(/assets/Roboto-Light.ttf) format("truetype");
+        src: url(/assets/Roboto-LightItalic.ttf) format("truetype");
+        src: url(/assets/Roboto-Medium.ttf) format("truetype");
+        src: url(/assets/Roboto-MediumItalic.ttf) format("truetype");
+        src: url(/assets/Roboto-Regular.ttf) format("truetype");
+        src: url(/assets/Roboto-Thin.ttf) format("truetype");
+        src: url(/assets/Roboto-ThinItalic.ttf) format("truetype");
+        src: url(/assets/RobotoCondensed-Bold.ttf) format("truetype");
+        src: url(/assets/RobotoCondensed-BoldItalic.ttf) format("truetype");
+        src: url(/assets/RobotoCondensed-Italic.ttf) format("truetype");
+        src: url(/assets/RobotoCondensed-Light.ttf) format("truetype");
+        src: url(/assets/RobotoCondensed-LightItalic.ttf) format("truetype");
+        src: url(/assets/RobotoCondensed-Regular.ttf) format("truetype");
+    }
